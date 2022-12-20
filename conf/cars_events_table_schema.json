@@ -1,0 +1,68 @@
+"schema": {
+    "fields": [
+      {
+        "mode": "NULLABLE",
+        "name": "event",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "on",
+        "type": "STRING"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "at",
+        "type": "STRING"
+      },
+      {
+        "fields": [
+          {
+            "mode": "NULLABLE",
+            "name": "id",
+            "type": "STRING"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "start",
+            "type": "TIMESTAMP"
+          },
+          {
+            "mode": "NULLABLE",
+            "name": "finish",
+            "type": "TIMESTAMP"
+          },
+          {
+            "fields": [
+              {
+                "mode": "NULLABLE",
+                "name": "lat",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "lng",
+                "type": "STRING"
+              },
+              {
+                "mode": "NULLABLE",
+                "name": "at",
+                "type": "TIMESTAMP"
+              }
+            ],
+            "mode": "NULLABLE",
+            "name": "location",
+            "type": "RECORD"
+          }
+        ],
+        "mode": "NULLABLE",
+        "name": "data",
+        "type": "RECORD"
+      },
+      {
+        "mode": "NULLABLE",
+        "name": "organization_id",
+        "type": "STRING"
+      }
+    ]
+  }
