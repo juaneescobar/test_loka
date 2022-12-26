@@ -1,0 +1,6 @@
+google.cloud.storage==2.3.0
+google-auth==2.6.5
+requests==2.21.0
+six==1.15.0
+google-cloud-core==2.3.0
+requests-toolbelt==0.10.0

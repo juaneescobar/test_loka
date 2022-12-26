@@ -105,7 +105,7 @@ def trigger_dag(data, context=None):
     # {tenant-project-id}.appspot.com
     webserver_id = 'u571d24c1781a3b15p-tp'
     # The name of the DAG you wish to trigger
-    dag_name = 'gcs_to_bigquery_operator'
+    dag_name = 'events-cars-location'
     webserver_url = (
         'https://'
         + webserver_id
